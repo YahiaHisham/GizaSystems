@@ -39,6 +39,7 @@ Ensure you have the following software installed:
 
 ```plaintext
 GizaSystems
+│   .gitignore
 │   README.md
 │   pom.xml
 │   testng.xml
