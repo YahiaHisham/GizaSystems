@@ -52,6 +52,7 @@ GizaSystems
     └───test
         └───java
             └───com.gizaSystems
+                └───apis [contains all APIs tests]
                 └───data [contains all required test data]
                 └───testClasses [contains all test classes]
                 └───utilities [contains all utilities that helps in executing the test cases]
