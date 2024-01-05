@@ -69,5 +69,4 @@ public class CustomerHomePage extends PageBase {
         return new CustomerHomePage(driver);
     }
 
-
 }

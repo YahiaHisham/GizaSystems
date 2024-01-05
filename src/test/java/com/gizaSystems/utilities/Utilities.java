@@ -16,20 +16,6 @@ import java.util.List;
 
 public class Utilities {
 
-    static String screenshotLocation = "src/test/java/com/bayt/data/screenshots/";
-
-    public static void takeScreenshot(WebDriver driver, String imageName) {
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.jsReturnsValue("return document.readyState === 'complete'"));
-        try {
-            File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(screenshotFile, new File(screenshotLocation + imageName + ".png"));
-            System.out.println("Screenshot taken: " + imageName);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     // Helper method to check if a list is sorted in ascending order
     public static boolean isSortedAscending(List<String> list) {
         List<String> sortedList = new ArrayList<>(list);
