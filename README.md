@@ -22,7 +22,7 @@ This project contains 6 test cases in UI Automation using Selenium, Java, Maven,
 Ensure you have the following software installed:
 
 - Java [latest version]
-- [Allure reports and if you do not have it please follow steps here](https://allurereport.org/docs/gettingstarted-installation/)
+- Allure reports [if you do not have it please follow steps here](https://allurereport.org/docs/gettingstarted-installation/)
 
 ## Getting Started
 
