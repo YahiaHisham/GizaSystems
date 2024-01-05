@@ -1,0 +1,5 @@
+{
+  "CustomerIsAddedSuccessMessage": "Customer added successfully with customer id :",
+  "BankAccountIsAddedSuccessMessage": "Account created successfully with account Number :",
+  "DepositSuccessMessage": "Deposit Successful"
+}
