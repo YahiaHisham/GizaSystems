@@ -1,6 +1,7 @@
 package com.gizaSystems.apis.payloads;
 
 public class CreatePetPayload {
+
     public static String createPet(int petID, String petName, String status) {
         return "{\n" +
                 "  \"id\": " + petID + ",\n" +

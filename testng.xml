@@ -3,6 +3,7 @@
     <test name="TaskTest">
         <classes>
             <class name="com.gizaSystems.testClasses.BankManagerTest"/>
+            <class name="com.gizaSystems.apis.ApiTest"></class>
         </classes>
     </test>
 </suite>

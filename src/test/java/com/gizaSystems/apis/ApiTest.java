@@ -23,7 +23,7 @@ public class ApiTest {
     }
 
     @Test
-    public void testGetRandomPet() {
+    public void verifyThatUserCanGetRandomPetById() {
         int petId = 10;
         String response = given()
                 .log().all()
@@ -38,7 +38,7 @@ public class ApiTest {
     }
 
     @Test
-    public void testGetPetsByStatus() {
+    public void verifyThatUserCanGetPetsByStatus() {
         String status = "string";
         String response = given()
                 .log().all()
@@ -55,8 +55,7 @@ public class ApiTest {
     }
 
     @Test
-    public void testCreateNewPet() {
-        // Create new pet using add pet API
+    public void verifyThatUserCanCreateNewPet() {
         String newPetJson = CreatePetPayload.createPet(22, "new Pet Name", "status");
         String response = given()
                 .log().all()
